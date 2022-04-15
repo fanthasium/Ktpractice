@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:viewBindingIgnore="true">
+
+    <data>
+
+        <variable
+            name="registerId"
+            type="com.example.kotlin.fragment.IdFragment" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/idFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:clickable="true">
+
+
+        <TextView
+            android:id="@+id/titleTxtView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/registerTittle"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="113dp" />
+
+        <TextView
+            android:id="@+id/subTitleTxtView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/registerSubTittle"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/titleTxtView"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="@+id/titleTxtView"
+            app:layout_constraintTop_toBottomOf="@+id/titleTxtView" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/idEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="@string/registerEmail"
+            android:singleLine="true"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/subTitleTxtView"
+            app:layout_constraintStart_toStartOf="@+id/subTitleTxtView"
+            app:layout_constraintTop_toBottomOf="@+id/subTitleTxtView"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/btnActivityPwd"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/shape"
+            android:focusable="true"
+            android:text="@string/registerPwdNext"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idEditText"
+            app:layout_constraintVertical_bias="0.245"
+            tools:layout_editor_absoluteX="19dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

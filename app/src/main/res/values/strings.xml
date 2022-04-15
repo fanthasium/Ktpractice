@@ -1,0 +1,43 @@
+<resources>
+
+
+    <string name="app_name">kotlin</string>
+    <string name="registerTittle">사용자 계정 만들기</string>
+    <string name="registerSubTittle">새 계정에 사용할 e-mail형식의 사용자 아이디를 입력해 주세요</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="registerPwTittle">사용자 비밀번호 만들기</string>
+    <string name="registerPwSubTittle">사용자 비밀번호를 설정해 주세요</string>
+    <string name="registerPwdCheck">비밀번호 입력</string>
+    <string name="registerPwCheck2">비밀번호 재확인</string>
+    <string name="registerIdNext">다음</string>
+    <string name="registerPwdNext">다음</string>
+    <string name="userInfoTittle">사용자 정보</string>
+    <string name="userInfoSubTittle">상세정보를 입력해 주세요</string>
+    <string name="userInfoName">이름</string>
+    <string name="userInfoMale">남성</string>
+    <string name="userInfoFemale">여성</string>
+    <string name="userInfoNum">전화번호를 입력해주세요</string>
+    <string name="userInfoBirth">생년월일을 입력해 주세요</string>
+    <string name="userInfoHobby">취미를 입력해 주세요</string>
+    <string name="userInfoNext">다음</string>
+    <string name="registerEmail">이메일을 입력해주세요</string>
+    <string name="loginTittle">InstAx</string>
+    <string name="loginEmail">e-amil</string>
+    <string name="loginPwd">password</string>
+    <string name="loginNextLogin">로그인</string>
+    <string name="LoginNextRegist">회원가입</string>
+
+    <string-array name="hobby">
+        <item>음악감상</item>
+        <item>독서</item>
+        <item>웨이트 트레이닝</item>
+        <item>자전거 타기</item>
+        <item>Tv시청</item>
+        <item>우표 수집</item>
+        <item>U-tube</item>
+        <item>낚시</item>
+        <item>익스트림 스포츠</item>
+        <item>블로그 챌린지</item>
+    </string-array>
+</resources>
